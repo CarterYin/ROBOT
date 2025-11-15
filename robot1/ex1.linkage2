@@ -1,0 +1,37 @@
+<linkage2>
+	<program zoom="1.000000" xoffset="26" yoffset="-27" scalefactor="1.000000" units="Millimeters" backgroundtransparency="0.000000" backgroundscale="1.000000" xgrid="" ygrid=""/>
+	<connector id="0" selected="false" layer="16" x="-170.078740" y="-37.795276" anchor="true" color="16711680" usercolor="false"/>
+	<connector id="1" selected="false" layer="16" x="-264.566929" y="197.666667" color="12632064" usercolor="false"/>
+	<connector id="2" selected="false" layer="16" x="0.000000" y="197.666667" color="32768" usercolor="false"/>
+	<connector id="4" selected="false" layer="16" x="94.488189" y="-37.795276" anchor="true" color="6854344" usercolor="false"/>
+	<connector id="5" selected="true" layer="16" x="-56.692913" y="75.590551" color="11012476" usercolor="false"/>
+	<connector id="6" selected="false" layer="16" x="257.874016" y="245.669291" anchor="true" color="16744448" usercolor="false"/>
+	<Link id="1" selected="false" layer="16" linesize="1" solid="true" shapetype="hull" color="12632064" usercolor="false">
+		<connector id="0"/>
+		<connector id="1"/>
+	</Link>
+	<Link id="2" selected="false" layer="16" linesize="1" solid="true" shapetype="hull" color="32768" usercolor="false">
+		<connector id="1"/>
+		<connector id="2"/>
+	</Link>
+	<Link id="3" selected="false" layer="16" linesize="1" solid="true" shapetype="hull" color="16711808" usercolor="false">
+		<connector id="2"/>
+		<connector id="5"/>
+	</Link>
+	<Link id="4" selected="false" layer="16" linesize="1" solid="true" shapetype="hull" color="6854344" usercolor="false">
+		<connector id="4"/>
+		<connector id="5"/>
+	</Link>
+	<Link id="5" selected="false" layer="16" linesize="1" solid="true" shapetype="hull" color="11012476" usercolor="false">
+		<connector id="2"/>
+		<connector id="4"/>
+	</Link>
+	<Link id="0" selected="false" layer="16" linesize="1" solid="true" actuator="true" startoffset="0.000000" throw="168.260787" cpm="-15.000000" shapetype="hull" color="16711680" usercolor="false">
+		<connector id="5"/>
+		<connector id="6"/>
+	</Link>
+	<selected>
+		<connector id="5"/>
+	</selected>
+	<background></background>
+</linkage2>

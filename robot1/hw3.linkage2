@@ -1,0 +1,84 @@
+<linkage2>
+	<program zoom="1.000000" xoffset="0" yoffset="0" scalefactor="1.000000" units="Millimeters" backgroundtransparency="0.000000" backgroundscale="1.000000" xgrid="" ygrid=""/>
+	<connector id="1" selected="false" layer="16" x="-113.385827" y="-85.102362" color="12632064" usercolor="false"/>
+	<connector id="2" selected="false" layer="16" x="-132.283465" y="151.181102" color="32768" usercolor="false"/>
+	<connector id="4" selected="false" layer="16" x="359.055118" y="293.055118" color="6854344" usercolor="false"/>
+	<connector id="9" selected="false" layer="16" x="-132.283465" y="-56.692913" anchor="true" color="13123282" usercolor="false"/>
+	<connector id="7" selected="false" layer="16" x="50.692913" y="-151.181102" anchor="true" color="11272364" usercolor="false"/>
+	<connector id="11" selected="false" layer="16" x="50.691024" y="27.564094" anchor="true" input="true" rpm="360.000000" color="2146336" usercolor="false"/>
+	<connector id="13" selected="false" layer="16" x="234.361995" y="-56.692913" anchor="true" color="13123648" usercolor="false"/>
+	<connector id="5" selected="false" layer="16" x="37.795276" y="275.180787" anchor="true" color="11012476" usercolor="false"/>
+	<connector id="3" selected="false" layer="16" x="198.078740" y="-56.692913" color="16711808" usercolor="false"/>
+	<connector id="0" selected="false" layer="16" x="226.771654" y="151.181102" color="16711680" usercolor="false"/>
+	<connector id="6" selected="true" layer="16" x="556.902887" y="132.283465" color="16744448" usercolor="false"/>
+	<Link id="5" selected="false" layer="16" linesize="1" shapetype="hull" color="11012476" usercolor="false">
+		<connector id="2"/>
+		<connector id="4"/>
+	</Link>
+	<Link id="11" selected="false" layer="16" linesize="1" shapetype="hull" gear="true" color="2146336" usercolor="false">
+		<connector id="9"/>
+		<connector id="1"/>
+	</Link>
+	<Link id="14" selected="false" layer="16" linesize="1" shapetype="hull" gear="true" color="4243584" usercolor="false">
+		<connector id="11"/>
+	</Link>
+	<Link id="12" selected="false" layer="16" linesize="1" shapetype="hull" gear="true" color="223719" usercolor="false">
+		<connector id="7"/>
+	</Link>
+	<Link id="9" selected="false" layer="16" linesize="1" shapetype="hull" color="13123282" usercolor="false">
+		<connector id="2"/>
+		<connector id="4"/>
+	</Link>
+	<Link id="16" selected="false" layer="16" linesize="1" shapetype="hull" color="12599551" usercolor="false">
+		<connector id="2"/>
+		<connector id="4"/>
+	</Link>
+	<Link id="18" selected="false" layer="16" linesize="1" shapetype="hull" gear="true" color="6324424" usercolor="false">
+		<connector id="13"/>
+		<connector id="3"/>
+	</Link>
+	<Link id="2" selected="false" layer="16" linesize="1" shapetype="hull" color="32768" usercolor="false">
+		<connector id="1"/>
+		<connector id="2"/>
+	</Link>
+	<Link id="1" selected="false" layer="16" linesize="1" shapetype="hull" color="12632064" usercolor="false">
+		<connector id="2"/>
+		<connector id="5"/>
+	</Link>
+	<Link id="3" selected="false" layer="16" linesize="1" shapetype="hull" color="16711808" usercolor="false">
+		<connector id="4"/>
+		<connector id="5"/>
+	</Link>
+	<Link id="15" selected="false" layer="16" linesize="1" shapetype="hull" color="8421440" usercolor="false">
+		<connector id="2"/>
+		<connector id="4"/>
+		<connector id="5"/>
+	</Link>
+	<Link id="0" selected="false" layer="16" linesize="1" shapetype="hull" color="16711680" usercolor="false">
+		<connector id="5"/>
+		<connector id="0"/>
+		<connector id="6"/>
+	</Link>
+	<Link id="4" selected="false" layer="16" linesize="1" shapetype="hull" color="6854344" usercolor="false">
+		<connector id="3"/>
+		<connector id="0"/>
+	</Link>
+	<selected>
+		<connector id="6"/>
+	</selected>
+	<ratios>
+		<ratio type="gears" sizeassize="false" internal="false">
+			<link id="12" size="3.000000"/>
+			<link id="14" size="1.000000"/>
+		</ratio>
+		<ratio type="gears" sizeassize="false" internal="false">
+			<link id="12" size="1.000000"/>
+			<link id="11" size="3.000000"/>
+		</ratio>
+		<ratio type="gears" sizeassize="false" internal="false">
+			<link id="11" size="1.000000"/>
+			<link id="18" size="1.000000"/>
+		</ratio>
+	</ratios>
+	<background></background>
+</linkage2>
